@@ -1,0 +1,30 @@
+{
+  "name": "meteorites",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.4.1"
+  },
+  "dependencies": {
+    "babyparse": "^0.4.6",
+    "chroma-js": "^1.2.1",
+    "d3": "^4.2.3",
+    "lerp": "^1.0.3",
+    "moment": "^2.15.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "topojson": "^1.6.27",
+    "underscore": "^1.8.3",
+    "victory": "^0.12.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "transform-data": "node ./tasks/transform-data.js"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}
